@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+reports/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
